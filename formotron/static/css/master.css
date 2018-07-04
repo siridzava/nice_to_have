@@ -1,0 +1,8 @@
+body {
+  background: #E8EAF6;
+}
+
+label {
+  min-width: 50px;
+  vertical-align: top;
+}
