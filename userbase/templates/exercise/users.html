@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/mister.css" %}">
+    <meta charset="utf-8">
+    <title>Users</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+    {% if all_users %}
+    <table>
+      <th>Last name</th>
+      <th>First name</th>
+      <th>Email address</th>
+      {% for us in all_users %}
+      <tr>
+        <td>{{us.last_name}}</td>
+        <td>{{us.first_name}}</td>
+        <td>{{us.email}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% else %}
+    <h3>No records found :(</h3>
+    {% endif %}
+    </div>
+    </div>
+  </body>
+</html>
