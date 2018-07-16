@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from cbv import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('cbv.urls')),
+    path('', views.IndexView.as_view()),
+    path('cbv/', include('cbv.urls', namespace='cbv',))
 ]

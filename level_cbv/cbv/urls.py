@@ -4,5 +4,6 @@ from cbv import views
 app_name = 'cbv'
 
 urlpatterns = [
-    path('', views.IndexView.as_view())
+    path('', views.SchoolListView.as_view(), name='list'),
+    path('<int:pk>', views.SchoolDetailedView.as_view(), name='detail')
 ]
