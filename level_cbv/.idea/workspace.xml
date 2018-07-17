@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="099b5ae7-5e2e-41ea-8ca4-5e0a7cdf5c3f" name="Default" comment="new prjct">
-      <change afterPath="$PROJECT_DIR$/cbv/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cbv/templates/cbv/cbv_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cbv/templates/cbv/school_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cbv/templates/cbv/school_list.html" afterDir="false" />
+    <list default="true" id="099b5ae7-5e2e-41ea-8ca4-5e0a7cdf5c3f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbv/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbv/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbv/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbv/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbv/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbv/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cbv/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_cbv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_cbv/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +25,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cbv/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="96">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -49,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/cbv/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+              <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -252,16 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1531420425505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated">
+      <created>1531769861347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531769861348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0929309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20889595" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32965517" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,7 +298,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="new prjct" />
-    <option name="LAST_COMMIT_MESSAGE" value="new prjct" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/index.html">
@@ -376,7 +373,7 @@
     <entry file="file://$PROJECT_DIR$/cbv/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+          <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -410,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cbv/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="96">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
